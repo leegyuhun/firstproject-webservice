@@ -23,11 +23,13 @@ dependencies {
 	implementation 'junit:junit:4.13.1'
 	implementation 'org.springframework.session:spring-session-jdbc'
 	implementation 'org.mariadb.jdbc:mariadb-java-client'
+	implementation 'org.springframework.boot:spring-boot-starter-tomcat'
 
 	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 
 	runtimeOnly 'com.h2database:h2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.springframework.security:spring-security-test'
 }
 
 test {
