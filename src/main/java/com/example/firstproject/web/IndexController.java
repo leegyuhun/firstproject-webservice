@@ -34,6 +34,11 @@ public class IndexController {
         return "index";
     }
 
+    @GetMapping("/apt")
+    public String aptHome(Model model){
+        return "aptHome";
+    }
+
     @GetMapping("/posts/save")
     public String postsSave(){
         return "posts-save";
